@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tugas 2</title>
+        <link rel="shortcut icon" href="https://cdn1.iconfinder.com/data/icons/people-avatar-glyph/64/male_glasses_hacker_people_man_programmer_avatar-512.png">
+        <link rel="stylesheet" href="..//CSS/tugas2.css">
+    </head>
+    <body>
+        <!--dibawah ini bagian header-->
+    <h1 class="jdlatas" style="text-align: center; color: darkgray;">Formulir</h1>
+    <h6 class="jdlbwh" style="text-align: center;">Isilah Data Dibawah</h6>
+
+<!--dibawah ini bagian menu-->
+<div class="navbar center">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="profile.html">Profile</a></li>
+        <li><a href="https://api.whatsapp.com/send?phone=6282350549871">Contact</a></li>
+    </ul>
+</div>
+<div>            
+    <form method="POST" action="proses.php">
+       <fieldset class="satu">
+           <table class="satu">
+               <legend  class="satuu">Login Menu</legend>
+               <tr>
+                   <td>Username:</td>
+                   <td><input type="text" name="username" placeholder="Username"></td>
+               </tr>
+               <tr>
+                   <td>Password:</td>
+                   <td><input type="password" name="password" placeholder="Password"></td>
+               </tr>
+               <tr>
+                   <td>Konfirmasi Password:</td>
+                   <td><input type="password" name="password" placeholder="Confirm Password"></td>
+               </tr>
+               <tr>
+                   <td class="ingataku"><input type="checkbox" name="rememberme"> Remember me</td>
+               </tr>
+           </table>
+       </fieldset>
+       <fieldset  class="dua">
+           <table class="dua">
+               <legend  class="duaa">Data Diri</legend>
+               <tr>
+                   <td>Nama:</td>
+                   <td><input type="text" name="nama" placeholder="Type your name"></td>
+               </tr>
+               <tr>
+                   <td>Jenis Kelamin:</td>
+                   <td><input type="radio" name="jk" value="L">Laki - Laki <input type="radio" name="jk" value="P">Perempuan</td>
+               </tr>
+               <tr>
+                   <td>Tanggal Lahir:</td>
+                   <td><input type="date" name="tanngallahir"></td>
+               </tr>
+               <tr>
+                   <td>Nomor HP:</td>
+                   <td><input type="number" name="nohp" placeholder="Type your number"></td>
+               </tr>
+               <tr>
+                   <td>Informasi yang disukai:</td>
+                   <td><input type="checkbox" name="kesukaan">Olahraga
+                   <input type="checkbox" name="kesukaan">Travelling<br>
+                   <input type="checkbox" name="kesukaan">Kesehatan
+                   <input type="checkbox" name="kesukaan">Wisata Alam</td>
+               </tr>
+               <tr>
+                <td>Jurusan:</td>
+                <td><input type="radio" name="jr" value="1">Ilmu Komputer <br> <input type="radio" name="jr" value="2">Teknologi Informasi</td>
+              </tr>
+               <tr>
+                <td>Agama:</td>
+                <td><select name="agama">
+                    <option value="islam">Islam</option>
+                    <option value="Kristen">Kristen</option>
+                    <option value="Hindu">Hindu</option>
+                    <option value="Budha">Budha</option>
+              </select></td>
+              </tr>
+              <tr>
+                  <td>Warna Favorit:</td>
+                  <td><input type="color" name="waranafavorit"></td>
+              </tr>
+              <tr>
+                  <td>Berat Badan:</td>
+                  <td>0 Kg<input type="range" name="bb">100 Kg</td>
+              </tr>
+              <tr>
+                  <td>Waktu Daftar:</td>
+                  <td><input type="time" name="waktudaftar"></td>
+              </tr>
+           </table>
+           <textarea cols="60" rows="10" name="komentar" placeholder="Isi pesan Anda disini..."></textarea>
+       </fieldset>
+       <input class="button1" type="submit" value="Daftar">
+       <input class="button2" type="reset" value="Reset">
+    </form>
+</div>
+ <!--Dibawah ini bagian footer-->
+<div>
+    <footer class="footer" align=center>&copy;2020 <br>Mhd. Afifan Aly Rahman Saragih <br>201402099</footer>
+</div>
+    </body>
+</html>
