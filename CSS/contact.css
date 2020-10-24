@@ -42,3 +42,12 @@ body {
     width: fit-content;
     margin: auto;
 }
+
+/*ini adalah bagian footer*/
+.footer{
+    background-color: lightgray;
+    width: 100%  ;
+    height: 56px;
+    float: left;
+    margin-top: 200%;
+}
