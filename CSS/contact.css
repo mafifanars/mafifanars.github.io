@@ -1,0 +1,44 @@
+*{padding: 0; margin: 0;}
+body {
+    background-color: beige;
+}
+/*bagian judul header atas*/
+.jdlatas {
+    margin-top: 3px;
+}
+/*bagian judul header bawah*/
+.jdlbwh {
+    margin-top: 2px;
+    margin-bottom: 15px;
+}
+/*bagian menu bar */
+.navbar {
+    float: left;
+    background: lightgray;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.navbar li {
+    float: left;
+    list-style: none;
+}
+
+.navbar li a{
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    font-weight: bold;
+}
+
+.navbar li a:hover {
+    background: #FFFFFF;
+    color: #000000;
+}
+
+.center ul{
+    
+    width: fit-content;
+    margin: auto;
+}
