@@ -1,0 +1,116 @@
+* {padding: 0; margin: 0;}
+body {
+    background-color: beige;
+}
+/* ini adalah bagian menu bar */
+.navbar {
+    float: left;
+    background: lightgray;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.navbar li {
+    float: left;
+    list-style: none;
+}
+
+.navbar li a{
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    font-weight: bold;
+}
+
+.navbar li a:hover {
+    background: #FFFFFF;
+    color: #000000;
+}
+
+.center ul{
+    
+    width: fit-content;
+    margin: auto;
+}
+/*ini adalah bagian underline link*/
+.link {
+    color:rgb(235, 100, 122);
+}
+/*ini adalah bagian judul header atas*/
+.jdlatas {
+    margin-top: 3px;
+}
+/*ini adalah bagian judul header dibawah header atas*/
+.jdlbwh {
+    margin-top: 2px;
+    margin-bottom: 15px;
+}
+.jdltabel {
+    margin-bottom: 5px;
+}
+/* ini adalah bagian tabel*/
+.tabel {
+    margin: auto;
+    margin-top: 3px;
+}
+/*ini adalah bagian footer*/
+.footer{
+    background-color: lightgray;
+    width: 100%  ;
+    height: 56px;
+    float: left;
+    margin-top: 200%;
+}
+.profile {
+    width: 350px;
+    height: 450px;
+    background:rgba(0, 0, 0, 0.7);
+    margin-top: 80px;
+    margin-left: 37%;
+}
+.profile img {
+    width: 120px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: 115px;
+    margin-top: 20px;
+}
+.profile h1 {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.profile h2 {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.profile p {
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+    margin-top: 18px;
+}
+#p2 {
+    text-align: center;
+}
+.icon {
+    margin-left: 135px;
+    margin-top: 20px;
+}
+.profile .icon i {   
+    padding: 5px;
+    color: white;
+}
+#link {
+    color: white;
+    text-decoration: none;
+}
