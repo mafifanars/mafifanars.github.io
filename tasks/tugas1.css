@@ -1,0 +1,31 @@
+* {padding: 100; margin: 100;}
+
+.navbar {
+    float: left;
+    background: paleturquoise;
+    width: 100%;
+}
+
+.navbar li {
+    float: left;
+    list-style: none;
+}
+
+.navbar li a{
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    font-weight: bold;
+}
+
+.navbar li a:hover {
+    background: #FFFFFF;
+    color: #000000;
+}
+
+.center ul{
+    
+    width: fit-content;
+    margin: auto;
+}

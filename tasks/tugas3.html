@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tugas 3</title>
+    <link rel="shortcut icon" href="https://cdn1.iconfinder.com/data/icons/people-avatar-glyph/64/male_glasses_hacker_people_man_programmer_avatar-512.png">
+    <link rel="stylesheet" href="tugas3.css">
+    <script>
+        function kali(){
+             bil1 = parseFloat(document.aritmatika.bil1.value);
+             bil2 = parseFloat(document.aritmatika.bil2.value);
+             hasil = bil1*bil2;
+             document.aritmatika.hasil.value=hasil;
+        }
+        function bagi(){
+             bil1 = parseFloat(document.aritmatika.bil1.value);
+             bil2 = parseFloat(document.aritmatika.bil2.value);
+             hasil = bil1/bil2;
+             document.aritmatika.hasil.value=hasil;
+        }
+        function tambah(){
+             bil1 = parseFloat(document.aritmatika.bil1.value);
+             bil2 = parseFloat(document.aritmatika.bil2.value);
+             hasil = bil1+bil2;
+             document.aritmatika.hasil.value=hasil;
+        }
+        function kurang(){
+             bil1 = parseFloat(document.aritmatika.bil1.value);
+             bil2 = parseFloat(document.aritmatika.bil2.value);
+             hasil = bil1-bil2;
+             document.aritmatika.hasil.value=hasil;
+        }
+    </script>
+</head>
+<body>
+    <!--dibawah ini bagian header-->
+        <h1 class="jdlatas" style="text-align: center; color: darkgray;">Aritmatika</h1>
+        <h6 class="jdlbwh" style="text-align: center;">Silakan Dicoba</h6>
+    
+    <h2 class="jdltabel" style="color: cadetblue;" align= "center">Kalkulator Sederhana</h2>
+     <form name="aritmatika">
+        <fieldset class="kotak">
+            <table class="kotak">
+                <legend  class="legend">Input Angka</legend>
+                <tr>
+                    <td for="bil1">Input Bilangan 1</td>
+                    <td><input type="number" id="bil1" placeholder="Input Bilangan 1"></td>
+                </tr>
+                <tr>
+                    <td for="bil2">Input Bilangan 2</td>
+                    <td><input type="number" id="bil2" placeholder="Input Bilangan 2"></td>
+                </tr>
+                <tr>
+                    <td for="hasil">Hasil</td>
+                    <td><input type="number" id="hasil"></td>
+                </tr>
+            </table>
+            <input class="satu" type="button" value="*" onclick="kali()">
+            <input class="dua" type="button" value="/" onclick="bagi()">
+            <input class="tiga" type="button" value="+" onclick="tambah()">
+            <input class="empat" type="button" value="-" onclick="kurang()">
+        </fieldset>       
+     </form>
+    <!--Dibawah ini bagian footer-->
+<div>
+    <footer class="footer" align=center>&copy;2020 <br>Mhd. Afifan Aly Rahman Saragih <br>201402099</footer>
+</div>
+</body>
+</html>
