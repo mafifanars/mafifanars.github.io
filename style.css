@@ -131,6 +131,7 @@
         height: 150px;
         transform: rotate(-170deg);
         z-index: -1;
+        display: flex;
     }
 
     .content-wrapper{
