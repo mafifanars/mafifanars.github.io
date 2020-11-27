@@ -63,12 +63,12 @@
     }
 
     .header h1{
-        font-size: 64px;
+        font-size: 50px;
         font-weight: 600;
         line-height: 64px;
     }
     .header p {
-        font-size: 36px;
+        font-size: 25px;
         font-weight: 300;
         line-height: 36px;
         color: #909090;
