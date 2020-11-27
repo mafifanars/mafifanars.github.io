@@ -59,7 +59,7 @@
     }
     
     .top-wrapper{
-        margin: 15vw 0 200px 0;
+        margin: 15vw 0 450px 0;
     }
 
     .header h1{
@@ -68,7 +68,7 @@
         line-height: 64px;
     }
     .header p {
-        font-size: 20px;
+        font-size: 36px;
         font-weight: 300;
         line-height: 36px;
         color: #909090;
@@ -120,7 +120,7 @@
         margin-top: 10px;
     }
 
-/*--------------Section 3 Best Seller -------------> */
+/*--------------Section 3 Tasks -------------> */
 
     .shape-background{
         background: #BFE9FF;
@@ -210,56 +210,6 @@
             text-align: left;
         }
 
-    }
-
-/*----------- Section 4 Gallery ------*/
-
-    .gallery-wrapper{
-        margin: 10vw 0;
-    }
-
-    .gallery-wrapper h2{
-        margin: 50px 0;
-        font-size: 48px;
-        font-weight: 600;
-        text-align: right;
-        width: 100%;
-    }
-
-
-    .grid-container{
-        display: grid;
-        width: 100%;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(3, 1fr);
-        grid-gap : 2.5vw;
-    }
-    .grid-container img{
-        width: 65%;
-    }
-    .grid-container img:nth-of-type(1){
-        grid-column: 1;
-        grid-row: 1 / span 6;
-    }
-
-    .grid-container img:nth-of-type(2){
-        grid-column: 2;
-        grid-row: 1 / span 4;
-    }
-
-    .grid-container img:nth-of-type(3){
-        grid-column: 3;
-        grid-row: 1 / span 2;
-    }
-
-    .grid-container img:nth-of-type(4){
-        grid-column: 2;
-        grid-row: 3;
-    }
-
-    .grid-container img:nth-of-type(5){
-        grid-column: 3;
-        grid-row: 2 / span 3;
     }
 
 /*----------- Footer ------*/
