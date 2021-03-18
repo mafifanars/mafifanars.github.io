@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+    body {
+        color: #303030;
+        overflow-x: hidden;
+    }
+    /* ---------- Navbar ---------- */
+    nav {
+        padding: 5px 5vw;
+        display: flex;
+        justify-content: space-between;
+        margin: 10px 7vw;
+    }
+    a {
+        color: #303030;
+        text-decoration: none;
+    }
+    .menu {
+        list-style-type: none;
+    }
+    ul {
+        padding: 0;
+    }
+    .title {
+        padding: 7.5px 0 7.5px 0;
+        flex: 1;
+    }
+    .item {
+        padding: 10px;
+    }
+    nav a:hover{
+        color: #ccc;
+    }
+     /* Mobile menu */
+     .menu {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .menu li a {
+        display: block;
+        padding: 4px 5px;
+    }
+    .menu li span {
+        display: block;
+        padding: 2px 5px;
+    }
+    
+/*----------- Footer ------*/
+
+    footer .container{
+        text-align: center;
+        margin: 5vw 0;
+    }
+
+/*------------Profile------*/
+.profile {
+    width: 500px;
+    height: 200px;
+    background: #D3919B;
+    margin-top: 80px;
+    margin: auto;
+    border-radius: 3%;
+}
+.profile tr td img {
+    width: 200px;
+    height: 180px;
+    border-radius: 30%;
+    margin: 25px 250px;
+}
+.profile tr td h1 a {
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    margin-left: 250px;
+    margin-bottom: auto;
+    margin-top: 3%;
+    font-weight: bold;
+}
+.profile tr td h2 {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin-top: auto;
+    margin-left: -5px;
+    font-size: 12px;
+    font-family: sans-serif;
+    margin-bottom: 30px ;
+}
+.profile tr td p {
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+    margin-top: 18px;
+    margin-bottom: 50px;
+}
+#p2 {
+    text-align: center;
+    margin-top: 1px;
+    margin-bottom: 60px;
+}
+
+.btn-login1
+{
+    width: 70%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: 0px auto ;
+    background-image: linear-gradient(to right, #575757,  #252A37);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    color: #fff;
+    outline: 0 ;
+}
