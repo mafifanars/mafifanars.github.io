@@ -57,8 +57,9 @@
 /*----------- Footer ------*/
 
     footer .container{
-        text-align: center;
-        margin: 5vw 0;
+       text-align: center;
+       margin: 5vw 0;
+       font-size: 7px;
         
     }
 
