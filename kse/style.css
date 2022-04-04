@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+    body {
+        color: #303030;
+        overflow-x: hidden;
+    }
+
+/*------------Profile------*/
+.profile {
+    width: 350px;
+    height: 600px;
+    background: wheat;
+    margin-top: 0;
+    border-radius: 15px;
+    margin: auto;
+    /* display: flex;
+    flex-wrap: wr; */
+}
+.logousu{
+    margin-top: 15px;
+    margin-right: 15px;
+    float: right;
+}
+.logokse{
+    margin-top: 15px;
+    margin-left: 15px;
+    float: left;
+}
+.title{
+    padding-top: 90px;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+}
+.title2 {
+    margin-top: -20px;
+    color: white;
+    text-align: center;
+}
+.btn{
+    border-radius: 1000px;
+}
+.button {
+    background-color: #fdbb2d; /* Green */
+    border: none;
+    border-radius: 100px;
+    color: white;
+    padding: 5px 0px;
+    text-align: center;
+    font-size: 16px;
+    min-width: 300px;
+    left: 60px;
+  }
